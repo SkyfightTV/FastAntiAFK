@@ -1,0 +1,26 @@
+#
+#$$$$$$$$\                   $$\      $$$$$$\             $$\     $$\  $$$$$$\  $$$$$$$$\ $$\   $$\
+#$$  _____|                  $$ |    $$  __$$\            $$ |    \__|$$  __$$\ $$  _____|$$ | $$  |
+#$$ |   $$$$$$\   $$$$$$$\ $$$$$$\   $$ /  $$ |$$$$$$$\ $$$$$$\   $$\ $$ /  $$ |$$ |      $$ |$$  /
+#$$$$$\ \____$$\ $$  _____|\_$$  _|  $$$$$$$$ |$$  __$$\\_$$  _|  $$ |$$$$$$$$ |$$$$$\    $$$$$  /
+#$$  __|$$$$$$$ |\$$$$$$\    $$ |    $$  __$$ |$$ |  $$ | $$ |    $$ |$$  __$$ |$$  __|   $$  $$<
+#$$ |  $$  __$$ | \____$$\   $$ |$$\ $$ |  $$ |$$ |  $$ | $$ |$$\ $$ |$$ |  $$ |$$ |      $$ |\$$\
+#$$ |  \$$$$$$$ |$$$$$$$  |  \$$$$  |$$ |  $$ |$$ |  $$ | \$$$$  |$$ |$$ |  $$ |$$ |      $$ | \$$\
+#\__|   \_______|\_______/    \____/ \__|  \__|\__|  \__|  \____/ \__|\__|  \__|\__|      \__|  \__|
+#####################################################################################################
+#This plugin is made by SkyfightTV for everyone
+#It works between spigot version 1.7 and 1.16
+#This plugin can't be reloaded
+
+#Permission use to bypass the anti AFK
+#If u give this permission to everyone, the anti afk was like disable !
+permission: "fastantiakf"
+
+#Time before kick player in seconds
+time: 5
+
+#All commands run by console when a player was detected like AFK
+#Variables:
+# %player% : return the name of player who was kicked
+command:
+  - "kick %player% &6Vous êtes actuellement AKF"
