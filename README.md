@@ -1,4 +1,4 @@
-# AAntiAFK
+# FastAntiAFK
     What is FastAntiAFK ?
 
 FastAntiAFK is a plugin that allows you to detect AFK players on your server and execute one or more commands like "/kick %player%". It is designed to consume the least amount of resources on your server. It starts the check as soon as it starts (compatible with /reload).
