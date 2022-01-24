@@ -2,7 +2,7 @@ package net.skyfighttv.fastantiafk;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Main extends JavaPlugin {
+public final class Main extends JavaPlugin {
     private static Main instance;
 
     {

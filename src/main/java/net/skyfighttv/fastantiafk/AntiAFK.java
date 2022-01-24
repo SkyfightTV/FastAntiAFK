@@ -31,7 +31,6 @@ public final class AntiAFK extends BukkitRunnable {
 
     @Override
     public void run() {
-        Bukkit.getLogger().info("Check");
         Bukkit.getOnlinePlayers().forEach(player -> {
             if (!player.isOnline() || player.hasPermission(this.PERMISSION))
                 return;
